@@ -5,8 +5,8 @@ import RecipeView from "./containers/RecipeView";
 import { recipeReducer } from "./state/Reducer/Recipe";
 import { recipeState } from "./state/State/Recipe";
 import { subDays, addDays } from 'date-fns';
-import DatePicker from "react-datepicker";
-import "react-datepicker/dist/react-datepicker.css"
+// import DatePicker from "react-datepicker";
+// import "react-datepicker/dist/react-datepicker.css"
 
 
 export const StoreContextRecipe = createContext({});
